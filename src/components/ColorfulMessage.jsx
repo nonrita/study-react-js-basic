@@ -6,3 +6,5 @@ export const ColorfulMessage = ({ color, children }) => {
 
     return <p style={contentStyle}>{children}</p>;
 }
+
+// export default ColorfulMessage; default export

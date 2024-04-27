@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import {ColorfulMessage} from "./components/ColorfulMessage";
+// import Hoge from "./components/ColorfulMessage"; default export
 
 //コンポーネントの名前は大文字はじまり（パスカルケース） reactで決まっているので小文字はじまりの場合うまく表示されない
 export const App = () => { //exportをすることで他のファイルから参照できるようにしている
